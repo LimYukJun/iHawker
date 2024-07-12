@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E34076C32BF784C2004E300E /* iHawkerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34076C22BF784C2004E300E /* iHawkerApp.swift */; };
+		E34076C52BF784C2004E300E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34076C42BF784C2004E300E /* ContentView.swift */; };
+		E34076C72BF784C3004E300E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34076C62BF784C3004E300E /* Assets.xcassets */; };
+		E34076CA2BF784C3004E300E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34076C92BF784C3004E300E /* Preview Assets.xcassets */; };
+		E34076D12BF78554004E300E /* HawkerCentersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34076D02BF78554004E300E /* HawkerCentersView.swift */; };
+		E34076D32BF7858C004E300E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34076D22BF7858C004E300E /* HomeView.swift */; };
+		E34076D52BF7861F004E300E /* CenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34076D42BF7861F004E300E /* CenterView.swift */; };
+		E34076D92BF7886E004E300E /* CaptionedPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34076D82BF7886E004E300E /* CaptionedPhoto.swift */; };
+		E34076DB2BF78883004E300E /* stallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34076DA2BF78883004E300E /* stallView.swift */; };
+		E34076DD2BF7891C004E300E /* PhotoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34076DC2BF7891C004E300E /* PhotoCard.swift */; };
+		E345111C2BF83AD800AD8FE7 /* stallView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E345111B2BF83AD800AD8FE7 /* stallView2.swift */; };
+		E345111E2BF83CAB00AD8FE7 /* stallView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E345111D2BF83CAB00AD8FE7 /* stallView3.swift */; };
+		E34511222BF98FE400AD8FE7 /* quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34511212BF98FE400AD8FE7 /* quiz.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E34076BF2BF784C2004E300E /* iHawker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHawker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34076C22BF784C2004E300E /* iHawkerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHawkerApp.swift; sourceTree = "<group>"; };
+		E34076C42BF784C2004E300E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E34076C62BF784C3004E300E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E34076C92BF784C3004E300E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E34076D02BF78554004E300E /* HawkerCentersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawkerCentersView.swift; sourceTree = "<group>"; };
+		E34076D22BF7858C004E300E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E34076D42BF7861F004E300E /* CenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterView.swift; sourceTree = "<group>"; };
+		E34076D82BF7886E004E300E /* CaptionedPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionedPhoto.swift; sourceTree = "<group>"; };
+		E34076DA2BF78883004E300E /* stallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stallView.swift; sourceTree = "<group>"; };
+		E34076DC2BF7891C004E300E /* PhotoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCard.swift; sourceTree = "<group>"; };
+		E345111B2BF83AD800AD8FE7 /* stallView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stallView2.swift; sourceTree = "<group>"; };
+		E345111D2BF83CAB00AD8FE7 /* stallView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stallView3.swift; sourceTree = "<group>"; };
+		E34511212BF98FE400AD8FE7 /* quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E34076BC2BF784C2004E300E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E34076B62BF784C2004E300E = {
+			isa = PBXGroup;
+			children = (
+				E34076C12BF784C2004E300E /* iHawker */,
+				E34076C02BF784C2004E300E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E34076C02BF784C2004E300E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E34076BF2BF784C2004E300E /* iHawker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E34076C12BF784C2004E300E /* iHawker */ = {
+			isa = PBXGroup;
+			children = (
+				E34076C22BF784C2004E300E /* iHawkerApp.swift */,
+				E34076C42BF784C2004E300E /* ContentView.swift */,
+				E34076C62BF784C3004E300E /* Assets.xcassets */,
+				E34076C82BF784C3004E300E /* Preview Content */,
+				E34076D02BF78554004E300E /* HawkerCentersView.swift */,
+				E34076D22BF7858C004E300E /* HomeView.swift */,
+				E34076D42BF7861F004E300E /* CenterView.swift */,
+				E34076D82BF7886E004E300E /* CaptionedPhoto.swift */,
+				E34076DA2BF78883004E300E /* stallView.swift */,
+				E34076DC2BF7891C004E300E /* PhotoCard.swift */,
+				E345111B2BF83AD800AD8FE7 /* stallView2.swift */,
+				E345111D2BF83CAB00AD8FE7 /* stallView3.swift */,
+				E34511212BF98FE400AD8FE7 /* quiz.swift */,
+			);
+			path = iHawker;
+			sourceTree = "<group>";
+		};
+		E34076C82BF784C3004E300E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E34076C92BF784C3004E300E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E34076BE2BF784C2004E300E /* iHawker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E34076CD2BF784C3004E300E /* Build configuration list for PBXNativeTarget "iHawker" */;
+			buildPhases = (
+				E34076BB2BF784C2004E300E /* Sources */,
+				E34076BC2BF784C2004E300E /* Frameworks */,
+				E34076BD2BF784C2004E300E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iHawker;
+			productName = iHawker;
+			productReference = E34076BF2BF784C2004E300E /* iHawker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E34076B72BF784C2004E300E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E34076BE2BF784C2004E300E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = E34076BA2BF784C2004E300E /* Build configuration list for PBXProject "iHawker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E34076B62BF784C2004E300E;
+			productRefGroup = E34076C02BF784C2004E300E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E34076BE2BF784C2004E300E /* iHawker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E34076BD2BF784C2004E300E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34076CA2BF784C3004E300E /* Preview Assets.xcassets in Resources */,
+				E34076C72BF784C3004E300E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E34076BB2BF784C2004E300E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34076C52BF784C2004E300E /* ContentView.swift in Sources */,
+				E34076D52BF7861F004E300E /* CenterView.swift in Sources */,
+				E34076D32BF7858C004E300E /* HomeView.swift in Sources */,
+				E34076D12BF78554004E300E /* HawkerCentersView.swift in Sources */,
+				E34076D92BF7886E004E300E /* CaptionedPhoto.swift in Sources */,
+				E345111E2BF83CAB00AD8FE7 /* stallView3.swift in Sources */,
+				E34511222BF98FE400AD8FE7 /* quiz.swift in Sources */,
+				E34076C32BF784C2004E300E /* iHawkerApp.swift in Sources */,
+				E34076DD2BF7891C004E300E /* PhotoCard.swift in Sources */,
+				E34076DB2BF78883004E300E /* stallView.swift in Sources */,
+				E345111C2BF83AD800AD8FE7 /* stallView2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E34076CB2BF784C3004E300E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E34076CC2BF784C3004E300E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E34076CE2BF784C3004E300E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iHawker/Preview Content\"";
+				DEVELOPMENT_TEAM = KDJSG6654Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.yukjun.iHawker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E34076CF2BF784C3004E300E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iHawker/Preview Content\"";
+				DEVELOPMENT_TEAM = KDJSG6654Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.yukjun.iHawker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E34076BA2BF784C2004E300E /* Build configuration list for PBXProject "iHawker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E34076CB2BF784C3004E300E /* Debug */,
+				E34076CC2BF784C3004E300E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E34076CD2BF784C3004E300E /* Build configuration list for PBXNativeTarget "iHawker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E34076CE2BF784C3004E300E /* Debug */,
+				E34076CF2BF784C3004E300E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E34076B72BF784C2004E300E /* Project object */;
+}
